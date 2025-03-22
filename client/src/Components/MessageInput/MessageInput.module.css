@@ -1,0 +1,25 @@
+.messageInput {
+  display: flex;
+  padding: 10px 15px;
+  background-color: #e9eaed;
+}
+
+.inputField {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sendButton {
+  width: 200px;
+  margin-left: 10px;
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+}

@@ -1,0 +1,60 @@
+.chatContainer {
+  display: flex;
+  height: 95.8vh;
+  background-color: #607d8b;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.chatWrapper {
+  display: flex;
+  height: 70vh;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #fff;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background: #e9eaed;
+  cursor: pointer;
+}
+
+.tabs .activeTab {
+  border: none;
+}
+
+.activeTab {
+  background-color: white !important;
+  transition: background-color 0.5s;
+}
+
+.contactsContainer {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.mainChat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #e9eaed;
+  overflow: hidden;
+}
