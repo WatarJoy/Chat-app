@@ -44,7 +44,6 @@
   background: #e9eaed;
 }
 
-
 .messages::-webkit-scrollbar {
   width: 10px;
 }
@@ -71,4 +70,34 @@
   text-align: center;
   color: #999;
   margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .contactName {
+    font-size: 15px;
+  }
+
+  .contactInfoText {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 900px) {
+  .chatHeader img {
+    height: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactName {
+    font-size: 13px;
+  }
+
+  .contactInfoText {
+    font-size: 10px;
+  }
+
+  .chatHeader img {
+    height: 25%;
+  }
 }
